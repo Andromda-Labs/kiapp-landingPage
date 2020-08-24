@@ -34,7 +34,7 @@ export const Container = styled.div`
     width: 1290px;
   }
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
 `
 

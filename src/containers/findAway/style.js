@@ -17,7 +17,7 @@ export const Container = styled.div`
     height: auto !important;
   }
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
 `
 export const DivText = styled.div`

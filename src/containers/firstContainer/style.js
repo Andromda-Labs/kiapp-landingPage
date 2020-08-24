@@ -40,7 +40,7 @@ export const Container = styled.div`
   ${media.bigDevice} {
     width: 100%;
     height: 100vh;
-    min-height: 1800px !important;
+    min-height: 1000px !important;
     padding-top: 150px;
     padding-right: 10%;
     padding-left: 10%;

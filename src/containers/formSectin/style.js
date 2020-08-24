@@ -12,7 +12,7 @@ export const Container = styled.div`
   min-height: 800px;
   background-color: #fff;
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
 `
 export const ToBeClientDiv = styled.div`

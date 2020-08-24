@@ -28,7 +28,7 @@ export const Container = styled.div`
     padding-top: 80px;
   }
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
 `
 export const Title = styled.p`

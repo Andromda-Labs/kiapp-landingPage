@@ -18,7 +18,7 @@ export const Container = styled.div`
     }
   }
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
   .mobile {
     display: none;
@@ -36,7 +36,7 @@ export const DivCont = styled.div`
   flex-direction: column;
   justify-content: center;
   ${media.bigDevice} {
-    min-height: 1800px;
+    min-height: 1000px !important;
   }
   h1 {
     font-size: ${Constants.TitleSize}px;
