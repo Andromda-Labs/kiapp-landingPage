@@ -19,7 +19,7 @@ export const Container = styled.div`
   ${media.smallDevice} {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding-right: 10%;
     padding-left: 10%;

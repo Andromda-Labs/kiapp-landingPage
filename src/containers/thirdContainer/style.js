@@ -13,15 +13,13 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   min-height: 800px;
-
   padding-right: 10%;
   padding-left: 10%;
   box-sizing: border-box;
   ${media.smallDevice} {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
     padding-right: 10%;
     padding-left: 10%;
     padding-top: 80px;

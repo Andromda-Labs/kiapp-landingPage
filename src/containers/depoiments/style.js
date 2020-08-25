@@ -21,7 +21,7 @@ export const Container = styled.div`
   }
   ${media.smallDevice} {
     display: block;
-    padding-top: 20px !important;
+    padding-top: 60px;
     width: 540px;
     height: auto;
     padding-bottom: 40px;

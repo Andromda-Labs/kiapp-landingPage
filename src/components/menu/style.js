@@ -138,9 +138,11 @@ export const UlMobile = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  margin-top: -20px;
+  margin-top: 0;
+  padding-left: 0;
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   z-index: 2000;
@@ -149,22 +151,19 @@ export const UlMobile = styled.ul`
   box-sizing: border-box;
   li {
     font-size: 16px;
-    font-family: 'Lato';
     cursor: pointer;
-    color: #fff;
-    text-align: center;
     margin-top: 20px;
     a {
-      font-family: 'Poppins' sans-serif;
+      font-family: 'Lato' sans-serif;
       text-decoration: none;
       color: #fff;
     }
   }
   img {
-    width: 24px;
-    height: 26px;
+    width: 20px;
+    height: 22px;
     position: absolute;
-    right: 20px;
-    top: 40px;
+    right: 30px;
+    top: 20px;
   }
 `

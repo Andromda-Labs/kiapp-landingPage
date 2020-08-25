@@ -12,7 +12,8 @@ export const Container = styled.div`
   ${media.smallDevice} {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     padding-top: 20px;
     height: auto !important;
   }
@@ -27,20 +28,17 @@ export const DivText = styled.div`
   padding-left: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: flex-start;
   h1 {
     font-size: ${Constants.TitleSize}px;
   }
 
   ${media.superSmallDevice} {
-    position: relative;
     width: 100%;
-    height: auto;
     padding-left: 10%;
+    padding-right: 10%;
     h1 {
       font-size: ${Constants.TitleSizeMobile}px;
-      padding-right: 10%;
     }
   }
   ${media.smallDevice} {
@@ -59,14 +57,4 @@ export const Img = styled.img`
     width: 100%;
     height: auto;
   }
-  /*
-  ${media.mobile} {
-    width: 664px;
-    height: 300px;
-  }
-  ${media.desktop} {
-    width: 764px;
-    height: 400px;
-  */
-  
 `
